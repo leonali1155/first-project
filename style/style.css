@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
 h1{
     color: aqua;
+    text-align: center;
+}
+.hero{
+    margin:5px;
+    background-image: url('../picture/1.jpg');
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.hero h1{
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900px;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 4px;
+    letter-spacing: 5px;
+}
+.article{
+    margin:20px auto;
+    width: 80%;
+    border-width:15px ;
+    border-color: yellow;
+    border-style: solid;
+    /* height: 500px; */
+    padding: 60px;
+    background-color: aqua;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 15px;
+}
+.article p{
+    font-size: 15px;
+    line-height: 2em;
+
+}
+.article p .imp{
+    font-size: 2em;
+    background-color: yellow;
+    
+}
+.img{
+    width: 200px;
+    height: 200px;
 }
